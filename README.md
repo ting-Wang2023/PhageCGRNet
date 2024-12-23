@@ -5,7 +5,7 @@ python phpcgr.py --phage_file phage_file_name.fasta --host_file host_file_name.t
 # Parameters
 --phage_file sequences file of phages (input file, fasta file format only)
 --host_file  file of hosts' category (input file, txt file format only)
---savefolder position of saviong the best model, default='./output/ '
+--savefolder save the best model, default='./output/ '
 --k  length of k-mer
 
 # Example
