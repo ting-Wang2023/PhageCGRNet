@@ -9,6 +9,7 @@ python phpcgr.py --phage_file phage_file_name.fasta --host_file host_file_name.t
 --k  length of k-mer
 
 # Example
+Unzip file example_phage.7z to get file example_phage.fasta
 python phpcgr.py --phage_file example_phage.fasta --host_file expample_host.txt --savefolder best_model.pth --k 7
 # Citation
 Ting Wang, Zu-Guo Yu, Jinyan Li, PHPCGR: A Novel Method for Phage Host Classification Prediction based on Chaos Game Representation and Convolutional Neural Network
