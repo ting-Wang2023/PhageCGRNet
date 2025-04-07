@@ -3,7 +3,7 @@ PhageCGRNet is a novel method for predicting the classification of phage hosts, 
 # Dataset
 We used the deephost and cherry datasets, which are available for download in references [1] and [2] 
 # Usage
-python PhageCGRNet.py --phage_file phage_file_name.fasta --host_file host_file_name.txt --savefolder best_model.pth --k 7
+python phagecgrnet.py --phage_file phage_file_name.fasta --host_file host_file_name.txt --savefolder best_model.pth --k 7
 # ParametersDataset
 --phage_file sequences file of phages (input file, fasta file format only)  
 --host_file  file of hosts' category (input file, txt file format only)  
@@ -12,7 +12,7 @@ python PhageCGRNet.py --phage_file phage_file_name.fasta --host_file host_file_n
 
 # Example
 Unzip file example_phage.7z to get file example_phage.fasta  
-python PhageCGRNet.py --phage_file example_phage.fasta --host_file expample_host.txt --savefolder best_model.pth --k 7
+python phagecgrnet.py --phage_file example_phage.fasta --host_file expample_host.txt --savefolder best_model.pth --k 7
 # Citation
 Ting Wang, Zu-Guo Yu, Jinyan Li, Lin Xuan, PhageCGRNet: Integrating Chaos Game Representation with Convolutional Neural Network for Accurate Phage Host Classification Prediction
 # References
