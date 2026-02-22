@@ -1,5 +1,5 @@
-python==3.9.18
-bio==1.6.8 
+bio==1.6.2
 numpy==1.26.4
 pandas==2.2.1
 torch==2.2.1
+torchsummary==1.5
