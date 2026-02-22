@@ -1,7 +1,7 @@
 # PhageCGRNet
 PhageCGRNet is a novel method for predicting the classification of phage hosts, which integrates k-mer frequency information with Chaos Game Representation positional information and employs a Convolutional Neural Network model for classification prediction.
 # Dataset
-We used the deephost and cherry datasets, which are available for download in references [1] and [2] 
+We used the deephost and cherry datasets, which are available for download in references [1] and [2] Due to their large size, the datasets have been included directly in the master branch of this repository. You can download them by cloning the repository or by accessing the files directly on GitHub
 # Environment Setup
 1. Install conda
 2. Change directory to the path of this project
