@@ -5,16 +5,15 @@ We used the deephost and cherry datasets, which are available for download in re
 # Environment Setup
 1. Install conda
 2. Change directory to the path of this project
-
-cd {your_PhageCGRNet_project_path}
+   cd {your_PhageCGRNet_project_path}
 
 3. Run following commands in the terminal
 
-conda create -n PhageCGRNet python=3.9.18
+   conda create -n PhageCGRNet python=3.9.18
 
-conda activate PhageCGRNet
+   conda activate PhageCGRNet
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 # Usage
 python phagecgrnet.py --phage_file phage_file_name.fasta --host_file host_file_name.txt --savefolder best_model.pth --k 7
