@@ -187,6 +187,7 @@ def get_args():
     )
 
     parser.add_argument('--fasta_file', default='./input/Phapes.fasta' )
+    parser.add_argument('--phage_file', default='./input/Phapes.fasta' )
     parser.add_argument('--host_file', default='./input/Hosts.txt')
 
     parser.add_argument('--savefolder', default='./output/best_model.pth', type=str,help='Save the optimal parameters')
@@ -218,4 +219,5 @@ def CGR_3D_main(args):
 if __name__ == "__main__":
     args = get_args()
     CGR_3D_main(args)
+
 
