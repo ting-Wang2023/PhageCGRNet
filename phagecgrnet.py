@@ -12,7 +12,7 @@ import argparse
 
 def cgr():
 
-    return CGR_3D.cgr_3d(args.fasta_file, args.k)
+    return CGR_3D.cgr_3d(args.phage_file, args.k)
 
 
 def load_data(host_file, rank):
@@ -186,7 +186,6 @@ def get_args():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
-    parser.add_argument('--fasta_file', default='./input/Phapes.fasta' )
     parser.add_argument('--phage_file', default='./input/Phapes.fasta' )
     parser.add_argument('--host_file', default='./input/Hosts.txt')
 
@@ -202,7 +201,7 @@ def get_args():
 
 def CGR_3D_main(args):
     torch.manual_seed(95)
-    fasta_file = args.fasta_file
+    phage_file = args.phage_file
     
     host_file = args.host_file
 
@@ -219,5 +218,6 @@ def CGR_3D_main(args):
 if __name__ == "__main__":
     args = get_args()
     CGR_3D_main(args)
+
 
 
