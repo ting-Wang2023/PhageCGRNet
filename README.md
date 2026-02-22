@@ -11,7 +11,9 @@ cd {your_PhageCGRNet_project_path}
 3. Run following commands in the terminal
 
 conda create -n PhageCGRNet python=3.9.18
+
 conda activate PhageCGRNet
+
 pip install -r requirements.txt
 
 # Usage
