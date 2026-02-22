@@ -25,7 +25,7 @@ python phagecgrnet.py --phage_file phage_file_name.fasta --host_file host_file_n
 --k  length of k-mer  
 
 # Example
-Unzip file example_phage.7z to get file example_phage.fasta  
+Unzip file example_phage.zip to get file example_phage.fasta  
 python phagecgrnet.py --phage_file example_phage.fasta --host_file example_host.txt --savefolder best_model.pth --k 7
 # Citation
 Ting Wang, Zu-Guo Yu, Jinyan Li, Xuan Lin, PhageCGRNet: Integrating Chaos Game Representation of Genomes with Convolutional Neural Network for Accurate Phage Host Classification Prediction
