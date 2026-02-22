@@ -6,12 +6,10 @@ We used the deephost and cherry datasets, which are available for download in re
 1. Install conda
 2. Change directory to the path of this project
 
-   bash
 cd {your_PhageCGRNet_project_path}
 
 4. Run following commands in the terminal
 
-   bash
 conda create -n PhageCGRNet python=3.9.18
 conda activate PhageCGRNet
 pip install -r requirements.txt
